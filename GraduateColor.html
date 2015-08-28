@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>计算渐变颜色</title>
+    <link type="text/css" rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="wrap">
+<h2>使用说明</h2>
+<p> 输入开始颜色、结束颜色和颜色数量，点击提交，即可生成所有渐变色。</p>
+<p>开始颜色,16进制颜色表示值，如：<span>#378bc2</span></p>
+<p>结束颜色,16进制颜色表示值，如：<span>#75cbe8</span></p>
+<p>颜色数量,一共生成多少种渐变色，10进制数<span>[2-100]</span></p>
+<p><span><b>注意：请严格按照要求输入，否则不能计算出渐变颜色</b></span></p>
+<form id="generateColor">
+    <p>
+        <label class="form_label" for="startcolor">开始颜色</label>
+        <input type="text" name="startcolor" id="startcolor" placeholder="#378bc2">
+        <span></span>
+    </p>
+    <p>
+        <label class="form_label" for="endcolor">结束颜色</label>
+        <input type="text" name="endcolor" id="endcolor" placeholder="#75cbe8">
+        <span></span>
+    </p>
+    <p>
+        <label class="form_label" for="num">颜色数量</label>
+        <input type="text" name="num" id="num" placeholder="10">
+        <span></span>
+    </p>
+    <p>
+        <input type="button" value="提交" id="btn">
+        <span></span>
+    </p>
+
+</form>
+<table id="tbk">
+    <tr>
+        <th>序号</th>
+        <th>颜色值</th>
+    </tr>
+</table>
+    <table id="tb">
+</table>
+</div>
+</body>
+</html>
+<script type="text/javascript" src="index.js"></script>

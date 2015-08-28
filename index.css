@@ -1,0 +1,14 @@
+
+.wrap{width: 800px;margin: 0 auto;border: 2px solid black;}
+.wrap h2{text-align: center;}
+.wrap p{height: 14px;line-height: 14px;text-indent:28px;}
+.wrap p span{color: #ff0000;font-weight: bold;}
+.wrap #generateColor{width: 800px;border-top: 2px solid black;text-align: center;}
+.wrap #generateColor p{height: 20px;line-height: 20px;margin-bottom: 5px;}
+.wrap #generateColor p span{margin-left:10px;width: 250px;text-align: left;float: left;text-indent:0;}
+.wrap #generateColor .form_label{width: 200px;text-align: right;float: left;}
+.wrap #generateColor input{float: left;margin-left: 50px;}
+.wrap #generateColor #btn{width: 60px;height: 20px;border-radius: 5px;margin-left: 350px;}
+#tb,#tbk{width: 800px;background: black;color: #ffffff;}
+#tb th{background: black;color: #ffffff;}
+#tb td{text-align: left;}
